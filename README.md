@@ -1,4 +1,4 @@
-# 📝 React Blog Viewer
+# 📝 React Blog App
 
 A multi-page blog viewer app built with **React**, **Vite**, **React Router**, and **Tailwind CSS**.
 
@@ -32,8 +32,8 @@ This project demonstrates dynamic routing, API fetching using `useEffect`, and r
 Clone and run locally:
 
 ```bash
-git clone https://github.com/your-username/blog-viewer.git
-cd blog-viewer
+git clone https://github.com/sudeepbidari/blog-app.git
+cd blog-app
 npm install
 npm run dev
 ```
