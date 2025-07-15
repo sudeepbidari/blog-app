@@ -1,12 +1,39 @@
-# React + Vite
+# 📝 React Blog Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A multi-page blog viewer app built with **React**, **Vite**, **React Router**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+This project demonstrates dynamic routing, API fetching using `useEffect`, and responsive UI with Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🗂️ Multi-page navigation with `react-router-dom`
+- 📥 Fetches blog posts from JSONPlaceholder API
+- 🔎 View post details on dynamic route `/posts/:id`
+- 🧠 React Hooks: `useEffect`, `useParams`, `useState`
+- 🎨 Clean, responsive UI styled with Tailwind CSS
+- 💾 Deployed via Vercel
+
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [React Router](https://reactrouter.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
+
+---
+
+## 📂 Installation
+
+Clone and run locally:
+
+```bash
+git clone https://github.com/your-username/blog-viewer.git
+cd blog-viewer
+npm install
+npm run dev
+```
